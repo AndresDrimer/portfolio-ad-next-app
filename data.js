@@ -16,7 +16,7 @@ export default {
         whatsapp: "+549116490517",
       },
     resume:
-      "https://drive.google.com/file/d/1qK_kooLAZU9H1oNtKwB-rCDA7kbOhgl8/view",
+      "https://drive.google.com/file/d/1qK_kooLAZU9H1oNtKwB-rCDA7kbOhgl8/view?usp=sharing",
     about: {
       subtitle: "Everybody´s path is unique. This is mine...",
       paragraph1:
