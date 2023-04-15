@@ -116,23 +116,10 @@ export default {
     projects: [
       {
         id: 0,
-        imageInside: "/assets/mockups/desktop/pablo-desktop.png",
-        imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
-        title: "Filmaker website",
-        tech: "REACT",
-        techDetail: ["React", "React-router", "EmailJS", "Javascript", "CSS", "HTML"],
-        anchor: "filmakerwebsite",
-        externalUrl: "https://monumental-moxie-6383d3.netlify.app",
-        gitHubUrl: "https://github.com/AndresDrimer/pablocoronel-react",
-        description:
-          "This was a really fun project to build. I decided to use a video background as the main object because it´s a website for a video maker. It includes two different layouts, one for the main section and the other one to show artist´s works and projects, I chosed react-router to manage them and created dynamic routes for portfolio items. I focused on the re-usability of components, making it really easy to update. I used EmailJS to manage sendings from Contact section",
-      },
-      {
-        id: 1,
-        imageInside: "/assets/mockups/desktop/todo-desktop.png",
-        imageBck: "/assets/mockups/iphone/todo-iphone.png",
+        imageInside: "/assets/mockups/desktop/todo-desktop2.png",
+        imageBck: "/assets/mockups/iphone/todo-iphone2.png",
         title: "Todo organizer",
-        tech: "NEXT-FIREBASE",
+        tech: "CRUD-NEXT-FIREBASE",
         techDetail: ["Next.js", "Firebase", "Chakra UI"],
         anchor: "todo",
         externalUrl: "https://todo-nextjs-firebase-vamos-cmitwelhc-andresdrimer.vercel.app/",
@@ -141,7 +128,7 @@ export default {
           "Todo organizer built on Next.js. Uses Firebase to provide Auth and as a database for persistent todos. It allows user to set complited/pending state and to remove items. Chackra provides a clean and modern UI.",
       },
         {
-        id: 2,
+        id: 1,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",
         title: "ChatGPT-OpenAI",
@@ -153,6 +140,20 @@ export default {
         description:
           "Providing a super simple Tailwind UI to be able to chat with ChatGPT. Build on Next.js.",
       },
+      {
+        id: 2,
+        imageInside: "/assets/mockups/desktop/pablo-desktop.png",
+        imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
+        title: "Filmaker website",
+        tech: "REACT",
+        techDetail: ["React", "React-router", "EmailJS", "Javascript", "CSS", "HTML"],
+        anchor: "filmakerwebsite",
+        externalUrl: "https://monumental-moxie-6383d3.netlify.app",
+        gitHubUrl: "https://github.com/AndresDrimer/pablocoronel-react",
+        description:
+          "This was a really fun project to build. I decided to use a video background as the main object because it´s a website for a video maker. It includes two different layouts, one for the main section and the other one to show artist´s works and projects, I chosed react-router to manage them and created dynamic routes for portfolio items. I focused on the re-usability of components, making it really easy to update. I used EmailJS to manage sendings from Contact section",
+      },
+      
       {
         id: 3,
         imageInside: "/assets/mockups/desktop/tenzies-desktop.png",
