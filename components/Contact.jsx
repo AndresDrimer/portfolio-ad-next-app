@@ -163,9 +163,9 @@ export default function Contact(props) {
       </div>
 
       <div className="flex justify-center py-12">
-        <Link href="/">
+        <a href="/">
           <div className="rounded-full shadow-lg shadow-gray-400 p-4 cursor.pointer hover:scale-100 ease-in duration-300"> <HiOutlineChevronDoubleUp className="text-[#22c4c7]" size={30}/></div>
-        </Link>
+        </a>
       </div>
     </div>
   );
