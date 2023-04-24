@@ -149,7 +149,7 @@ export default {
         tech: "REACT",
         techDetail: ["React", "React-router", "EmailJS", "Javascript", "CSS", "HTML"],
         anchor: "filmakerwebsite",
-        externalUrl: "https://monumental-moxie-6383d3.netlify.app",
+        externalUrl: "https://pablo-coronel.netlify.app/",
         gitHubUrl: "https://github.com/AndresDrimer/pablocoronel-react",
         description:
           "This was a really fun project to build. I decided to use a video background as the main object because it´s a website for a video maker. It includes two different layouts, one for the main section and the other one to show artist´s works and projects, I chosed react-router to manage them and created dynamic routes for portfolio items. I focused on the re-usability of components, making it really easy to update. I used EmailJS to manage sendings from Contact section",
