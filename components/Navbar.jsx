@@ -62,7 +62,7 @@ const Navbar = (props) => {
                 Contact
               </li>
             </a>
-            <a href={props.data.resume} target="_blank">
+            <a href="https://drive.google.com/file/d/1ZkEFOKik9YwCTaqam84H4hc898nxO5Zl/view?usp=sharing" target="_blank">
               <li className="ml-10 text-sm uppercase text-[#22c4c7] hover:border-b">
                 Resume
               </li>
@@ -113,7 +113,7 @@ const Navbar = (props) => {
               <a href="/#contact">
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Contact</li>
               </a>
-              <a href={props.data.resume} target="_blank">
+              <a href="https://drive.google.com/file/d/1ZkEFOKik9YwCTaqam84H4hc898nxO5Zl/view?usp=sharing" target="_blank">
               <li onClick={()=>setNav(false)} className="py-4 text-sm text-[#22c4c7]">
                 Resume
               </li>
