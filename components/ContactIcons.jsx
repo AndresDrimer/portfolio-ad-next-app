@@ -8,7 +8,7 @@ import {
 import data from "../data";
 
 function ContactIcons() {
-  console.log(data.contact.linkedin);
+  
   return (
     <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
       <a href={data.contact.linkedin} target="_blank">

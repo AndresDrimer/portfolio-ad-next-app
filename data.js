@@ -31,7 +31,7 @@ export default {
       {
         id: 0,
         tech: "next js",
-        version: "13",
+        version: "13.4",
         icon: "/assets/skills/nextjs.png",
       },
       {
@@ -121,12 +121,12 @@ export default {
         imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
         title: "Todo-Context API",
         tech: "CRUD-NEXT-CONTEXT API-LOCALSTORAGE",
-        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "reducer"],
+        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "Reducer"],
         anchor: "todo-context",
         externalUrl: "https://todo-context-beta.vercel.app/",
         gitHubUrl: "https://github.com/AndresDrimer/todo-context/tree/main",
         description:
-          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style",
+          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
       },
       {
         id: 1,

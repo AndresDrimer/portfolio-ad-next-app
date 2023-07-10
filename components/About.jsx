@@ -3,7 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 const About = (props) => {
-  console.log(props.data.aboutPhoto)
+ 
     return (
     <div id="about" className=" w-full md:h-screen p-2 flex items-center py-16">
       <div className="max-w-[1240px] m-auto md:grid grid-cols-3 gap-8">
