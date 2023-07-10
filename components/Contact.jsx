@@ -9,6 +9,8 @@ import emailjs from '@emailjs/browser';
 
 
 export default function Contact(props) {
+ 
+
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
@@ -23,7 +25,8 @@ export default function Contact(props) {
     
     function handleSubmit(e){
       e.preventDefault();
-      emailjs.sendForm('service_q5vhhxh', 'template_x0doc9n', form.current, '6fqjtlkE6QrFFSTzt')
+     
+      emailjs.sendForm(process.env.SERVICE_ID, process.env.TEMPLATE_ID , form.current, process.env.PUBLIC_KEY)
         .then((result) => {
             console.log(result.text);
             setFormData({
@@ -87,6 +90,7 @@ export default function Contact(props) {
         {/*right*/}
         <div className="cols-span-3 w-full h-auto shadow-gray-400 rounded-xl lg:p-4">
           <div className="p-4">
+
             <form ref={form} onSubmit={handleSubmit}>
               <div className="grid md:grid-cols-2 gap-4 w-full py-2">
                 <div className="flex flex-col">
@@ -157,6 +161,8 @@ export default function Contact(props) {
                 Send message
               </button>
             </form>
+
+
           </div>
         </div>
         <div className="text-[#22c4c7] tracking-widest text-center" id="msg">{mailSendedMessage}</div>
