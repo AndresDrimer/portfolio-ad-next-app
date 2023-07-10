@@ -11,7 +11,7 @@ export default function Projects(props) {
         <p className="text-xl tracking-widest uppercase text-[#22c4c7]">
           Projects
         </p>
-        <h2 className="py-4">What I´ve Built</h2>
+        <h2 className="py-4">Some projects</h2>
         <div className="grid md:grid-cols-2 gap-8">
      {createProjectItem}     
      
