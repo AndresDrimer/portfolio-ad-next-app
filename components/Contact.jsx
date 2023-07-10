@@ -9,8 +9,7 @@ import emailjs from '@emailjs/browser';
 
 
 export default function Contact(props) {
- console.log("service ID: " , process.env.SERVICE_ID)
-
+ 
   const [formData, setFormData] = useState({
     fullName: "",
     email: "",
