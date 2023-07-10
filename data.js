@@ -117,6 +117,19 @@ export default {
     projects: [
       {
         id: 0,
+        imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
+        imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
+        title: "Todo-Context API",
+        tech: "CRUD-NEXT-CONTEXT API-LOCALSTORAGE",
+        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "reducer"],
+        anchor: "todo-context",
+        externalUrl: "https://todo-context-beta.vercel.app/",
+        gitHubUrl: "https://github.com/AndresDrimer/todo-context/tree/main",
+        description:
+          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style",
+      },
+      {
+        id: 1,
         imageInside: "/assets/mockups/desktop/todo-desktop2.png",
         imageBck: "/assets/mockups/iphone/todo-iphone2.png",
         title: "Todo organizer",
@@ -129,7 +142,7 @@ export default {
           "Todo organizer built on Next.js. Uses Firebase to provide Auth and as a database for persistent todos. It allows user to set complited/pending state and to remove items. Chackra provides a clean and modern UI.",
       },
         {
-        id: 1,
+        id: 2,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",
         title: "ChatGPT-OpenAI",
@@ -142,7 +155,7 @@ export default {
           "Providing a super simple Tailwind UI to be able to chat with ChatGPT. Build on Next.js.",
       },
       {
-        id: 2,
+        id: 3,
         imageInside: "/assets/mockups/desktop/pablo-desktop.png",
         imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
         title: "Filmaker website",
@@ -156,7 +169,7 @@ export default {
       },
       
       {
-        id: 3,
+        id: 4,
         imageInside: "/assets/mockups/desktop/tenzies-desktop.png",
         imageBck: "/assets/mockups/iphone/tenzies-iphone.png",
         title: "Tenzies game",
@@ -169,7 +182,7 @@ export default {
           "Classic tenzies game. It provides language selection toggling from English to Spanish. I think it´s fun to play and I love Confetti´s animation :)",
       },
       {
-        id: 4,
+        id: 5,
         imageInside: "/assets/mockups/desktop/max-desktop.png",
         imageBck: "/assets/mockups/iphone/max-iphone.png",
         title: "Artist Website",
@@ -182,7 +195,7 @@ export default {
           "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
       },
       {
-        id: 5,
+        id: 6,
         imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
         imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
         title: "Blog & E-commerce",
