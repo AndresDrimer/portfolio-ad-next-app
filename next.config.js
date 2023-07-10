@@ -4,9 +4,10 @@ const nextConfig = {
     appDir: true,
   },
   env: {
-    PUBLIC_KEY: "RnNocnpcCzeu5jQ7v",
-    SERVICE_ID: "service_tgml3jr",
-    TEMPLATE_ID: "template_x0doc9n" 
+    SERVICE_ID: process.env.SERVICE_ID,
+    TEMPLATE_ID: process.env.TEMPLATE_ID,
+    PUBLIC_KEY: process.env.PUBLIC_KEY,
+    PRIVATE_KEY: process.env.PRIVATE_KEY,
   },
 }
 
