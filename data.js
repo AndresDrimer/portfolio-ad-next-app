@@ -64,52 +64,61 @@ export default {
         icon: "/assets/skills/firebase.png",
       },
       {
-        id: 6,
+        id: 6, 
+        tech: "mongo db", 
+        icon:"/assets/skills/mongodb.png"
+      },
+      {
+        id: 7,
+        tech: "prisma adapter",
+        icon: "/assets/skills/prisma.png"
+      },
+      {
+        id: 8,
         tech: "html",
         version: "5",
         icon: "/assets/skills/html.png",
       },
       {
-        id: 7,
+        id: 9,
         tech: "css",
         version: "3",
         icon: "/assets/skills/css.png",
-      },
-      
+      }, 
       {
-        id: 8,
+        id: 10,
         tech: "bootstrap",
         version: "5",
         icon: "/assets/skills/bootstrap.png",
       },
       {
-        id: 9,
+        id: 11,
         tech: "git",
         icon: "/assets/skills/git.png",
       },
       {
-        id: 10,
+        id: 12,
         tech: "github",
         icon: "/assets/skills/github.png",
       },
       
       {
-        id: 11,
+        id: 13,
         tech: "tiendanube (CMS)",
         icon: "/assets/skills/tiendanube.png",
       },
       {
-        id: 12,
+        id: 14,
         tech: "figma",
         icon: "/assets/skills/figma.png",
       },
       {
-        id: 13,
+        id: 15,
         tech: "photoshop",
         icon: "/assets/skills/photoshop.png",
       },
       {
-        id: 14,
+        id: 16,
         tech: "premiere",
         icon: "/assets/skills/premiere.png",
       },
@@ -117,6 +126,19 @@ export default {
     projects: [
       {
         id: 0,
+        imageInside: "/assets/mockups/desktop/libertadores-desktop.png",
+        imageBck: "/assets/mockups/iphone/libertadores-iphone.png",
+        title: "Footbal stamps control",
+        tech: "MONGODB-PRISMA-NEXT.JS-TAILWIND",
+        techDetail: ["Next.js", "Mongo Db", "Tailwind.css", "Prisma Adapter", "Next-Auth"],
+        anchor: "control",
+        externalUrl: "https://libertadores-control.vercel.app/",
+        gitHubUrl: "https://github.com/AndresDrimer/libertad",
+        description:
+          "This is an app created to organize an stamp collections. It asks for user authentication, and then it shows a dashboard with missing and found stamps. It also displays stas, and teams images, with a single dedicated page for each one",
+      },
+      {
+        id: 1,
         imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
         imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
         title: "Todo-Context API",
@@ -129,7 +151,7 @@ export default {
           "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
       },
       {
-        id: 1,
+        id: 2,
         imageInside: "/assets/mockups/desktop/todo-desktop2.png",
         imageBck: "/assets/mockups/iphone/todo-iphone2.png",
         title: "Todo organizer",
@@ -142,7 +164,7 @@ export default {
           "Todo organizer built on Next.js. Uses Firebase to provide Auth and as a database for persistent todos. It allows user to set complited/pending state and to remove items. Chackra provides a clean and modern UI.",
       },
         {
-        id: 2,
+        id: 3,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",
         title: "ChatGPT-OpenAI",
@@ -155,7 +177,7 @@ export default {
           "Providing a super simple Tailwind UI to be able to chat with ChatGPT. Build on Next.js.",
       },
       {
-        id: 3,
+        id: 4,
         imageInside: "/assets/mockups/desktop/pablo-desktop.png",
         imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
         title: "Filmaker website",
@@ -169,7 +191,7 @@ export default {
       },
       
       {
-        id: 4,
+        id: 5,
         imageInside: "/assets/mockups/desktop/tenzies-desktop.png",
         imageBck: "/assets/mockups/iphone/tenzies-iphone.png",
         title: "Tenzies game",
@@ -182,7 +204,7 @@ export default {
           "Classic tenzies game. It provides language selection toggling from English to Spanish. I think it´s fun to play and I love Confetti´s animation :)",
       },
       {
-        id: 5,
+        id: 6,
         imageInside: "/assets/mockups/desktop/max-desktop.png",
         imageBck: "/assets/mockups/iphone/max-iphone.png",
         title: "Artist Website",
@@ -195,7 +217,7 @@ export default {
           "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
       },
       {
-        id: 6,
+        id: 7,
         imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
         imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
         title: "Blog & E-commerce",

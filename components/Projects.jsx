@@ -12,7 +12,7 @@ export default function Projects(props) {
           Projects
         </p>
         <h2 className="py-4">Some projects</h2>
-        <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-3 gap-8">
      {createProjectItem}     
      
         </div>
