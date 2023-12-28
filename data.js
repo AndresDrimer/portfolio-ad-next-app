@@ -29,6 +29,16 @@ export default {
     },
     skills: [
       {
+        id: 0,
+        tech: "php",
+        icon: "/assets/skills/php.webp",
+      },
+      {
+        id: 1,
+        tech: "wordpress",
+        icon: "/assets/skills/wordpress.png",
+      },
+      {
         id: 2,
         tech: "next js",
         version: "13.4",
@@ -126,17 +136,8 @@ export default {
         id: 19,
         tech: "premiere",
         icon: "/assets/skills/premiere.png",
-      },
-      {
-        id: 0,
-        tech: "php",
-        icon: "/assets/skills/php.webp",
-      },
-      {
-        id: 1,
-        tech: "wordpress",
-        icon: "/assets/skills/wordpress.png",
-      },
+      }
+      
     ],
     projects: [
       {
@@ -152,7 +153,32 @@ export default {
         description:
           "Monthly Budget is a page designed to help control domestic cash flow or small projects. It allows the creation of personal or shared spaces privately. The intention is that it is easy to use, provides a useful service, and is easily scalable. It is designed in PHP and includes HTML, CSS, and Javascript. The database is MySQL.",
       },
-      
+      {
+        id: 1,
+        imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
+        imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
+        title: "Blog & E-commerce",
+        tech: "CMS",
+        techDetail: ["FIGMA", "CMS (Tiendanube)", "CMS (Wordpress)"],
+        anchor: "urbanism",
+        externalUrl: "https://cafedelasciudades.com.ar/",
+        gitHubUrl: "https://cafedelasciudades.mitienda.com",
+        description:
+          "It was quite a beautiful challenge designing for Cafe de las Ciudades. I started with their CMS e-commerce site and then I jumped into re-designing their digital maganize on their 20th anniversary. They have a really strong community so it was important to maintain the previous line as well as injecting new features and a modern design. I received the most wonderful feedback from long time users so I´m quite happy with the results.",
+      },
+      {
+        id: 2,
+        imageInside: "/assets/mockups/desktop/max-desktop.png",
+        imageBck: "/assets/mockups/iphone/max-iphone.png",
+        title: "Artist Website",
+        tech: "JAVASCRIPT",
+        techDetail: ["Javascript", "CSS", "HTML", "CMS (Tiendanube)"],
+        anchor: "artistwebsite",
+        externalUrl: "https://maxaguirre.com.ar/",
+        gitHubUrl: "https://github.com/AndresDrimer/MaxAguirre",
+        description:
+          "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
+      },
       {
         id: 3,
         imageInside: "/assets/mockups/desktop/libertadores-desktop.png",
@@ -232,32 +258,7 @@ export default {
         description:
           "Classic tenzies game. It provides language selection toggling from English to Spanish. I think it´s fun to play and I love Confetti´s animation :)",
       },
-      {
-        id: 2,
-        imageInside: "/assets/mockups/desktop/max-desktop.png",
-        imageBck: "/assets/mockups/iphone/max-iphone.png",
-        title: "Artist Website",
-        tech: "JAVASCRIPT",
-        techDetail: ["Javascript", "CSS", "HTML", "CMS (Tiendanube)"],
-        anchor: "artistwebsite",
-        externalUrl: "https://maxaguirre.com.ar/",
-        gitHubUrl: "https://github.com/AndresDrimer/MaxAguirre",
-        description:
-          "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
-      },
-      {
-        id: 1,
-        imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
-        imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
-        title: "Blog & E-commerce",
-        tech: "CMS",
-        techDetail: ["FIGMA", "CMS (Tiendanube)", "CMS (Wordpress)"],
-        anchor: "urbanism",
-        externalUrl: "https://cafedelasciudades.com.ar/",
-        gitHubUrl: "https://cafedelasciudades.mitienda.com",
-        description:
-          "It was quite a beautiful challenge designing for Cafe de las Ciudades. I started with their CMS e-commerce site and then I jumped into re-designing their digital maganize on their 20th anniversary. They have a really strong community so it was important to maintain the previous line as well as injecting new features and a modern design. I received the most wonderful feedback from long time users so I´m quite happy with the results.",
-      },
+      
     ],
   };
   
