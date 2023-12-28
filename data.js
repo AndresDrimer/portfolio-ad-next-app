@@ -219,20 +219,7 @@ export default {
         gitHubUrl: "https://github.com/AndresDrimer/pablocoronel-react",
         description:
           "This was a really fun project to build. I decided to use a video background as the main object because it´s a website for a video maker. It includes two different layouts, one for the main section and the other one to show artist´s works and projects, I chosed react-router to manage them and created dynamic routes for portfolio items. I focused on the re-usability of components, making it really easy to update. I used EmailJS to manage sendings from Contact section",
-      },
-      {
-        id: 6,
-        imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
-        imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
-        title: "Todo-Context API",
-        tech: "CRUD-NEXT-CONTEXT API-LOCALSTORAGE",
-        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "Reducer"],
-        anchor: "todo-context",
-        externalUrl: "https://todo-context-beta.vercel.app/",
-        gitHubUrl: "https://github.com/AndresDrimer/todo-context/tree/main",
-        description:
-          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
-      },
+      }
       
     ],
   };
