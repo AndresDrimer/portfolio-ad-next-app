@@ -29,103 +29,132 @@ export default {
     },
     skills: [
       {
-        id: 0,
+        id: 2,
         tech: "next js",
         version: "13.4",
         icon: "/assets/skills/nextjs.png",
       },
       {
-        id: 1,
+        id: 3,
         tech: "react",
         version: "18",
         icon: "/assets/skills/react.png",
       },
       {
-        id: 2,
+        id: 4,
         tech: "tailwind css",
         version: "3",
         icon: "/assets/skills/tailwind.png",
       },
       {
-        id: 3,
+        id: 5,
         tech: "typescript",
         version: "3",
         icon: "/assets/skills/typescript.png",
       },
       {
-        id: 4,
+        id: 6,
         tech: "javascript",
         version: "ECMAScript 2020",
         icon: "/assets/skills/javascript.png",
       },
       {
-        id: 5,
+        id: 7,
+        tech: "MySQL",
+        icon: "/assets/skills/mysql.png",
+      },
+      {
+        id: 8,
         tech: "firebase",
         icon: "/assets/skills/firebase.png",
       },
       {
-        id: 6, 
+        id: 9, 
         tech: "mongo db", 
         icon:"/assets/skills/mongodb.png"
       },
       {
-        id: 7,
+        id: 10,
         tech: "prisma adapter",
         icon: "/assets/skills/prisma.png"
       },
       {
-        id: 8,
+        id: 11,
         tech: "html",
         version: "5",
         icon: "/assets/skills/html.png",
       },
       {
-        id: 9,
+        id: 12,
         tech: "css",
         version: "3",
         icon: "/assets/skills/css.png",
       }, 
       {
-        id: 10,
+        id: 13,
         tech: "bootstrap",
         version: "5",
         icon: "/assets/skills/bootstrap.png",
       },
       {
-        id: 11,
+        id: 14,
         tech: "git",
         icon: "/assets/skills/git.png",
       },
       {
-        id: 12,
+        id: 15,
         tech: "github",
         icon: "/assets/skills/github.png",
       },
       
       {
-        id: 13,
+        id: 16,
         tech: "tiendanube (CMS)",
         icon: "/assets/skills/tiendanube.png",
       },
       {
-        id: 14,
+        id: 17,
         tech: "figma",
         icon: "/assets/skills/figma.png",
       },
       {
-        id: 15,
+        id: 18,
         tech: "photoshop",
         icon: "/assets/skills/photoshop.png",
       },
       {
-        id: 16,
+        id: 19,
         tech: "premiere",
         icon: "/assets/skills/premiere.png",
+      },
+      {
+        id: 0,
+        tech: "php",
+        icon: "/assets/skills/php.webp",
+      },
+      {
+        id: 1,
+        tech: "wordpress",
+        icon: "/assets/skills/wordpress.png",
       },
     ],
     projects: [
       {
         id: 0,
+        imageInside: "/assets/mockups/desktop/desktop-monthly.png",
+        imageBck: "/assets/mockups/iphone/iphone-monthly.png",
+        title: "Monthly Budget",
+        tech: "PHP-MYSQL",
+        techDetail: ["Php", "MySQL", "CSS", "HTML", "JS"],
+        anchor: "control",
+        externalUrl: "https://monthlybudget.com.ar/",
+        gitHubUrl: "https://github.com/AndresDrimer/monthly-budget",
+        description:
+          "Monthly Budget is a page designed to help control domestic cash flow or small projects. It allows the creation of personal or shared spaces privately. The intention is that it is easy to use, provides a useful service, and is easily scalable. It is designed in PHP and includes HTML, CSS, and Javascript. The database is MySQL.",
+      },
+      
+      {
+        id: 3,
         imageInside: "/assets/mockups/desktop/libertadores-desktop.png",
         imageBck: "/assets/mockups/iphone/libertadores-iphone.png",
         title: "Footbal stamps control",
@@ -138,7 +167,7 @@ export default {
           "This is an app created to organize an stamp collections. It asks for user authentication, and then it shows a dashboard with missing and found stamps. It also displays stas, and teams images, with a single dedicated page for each one",
       },
       {
-        id: 1,
+        id: 4,
         imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
         imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
         title: "Todo-Context API",
@@ -151,7 +180,7 @@ export default {
           "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
       },
       {
-        id: 2,
+        id: 5,
         imageInside: "/assets/mockups/desktop/todo-desktop2.png",
         imageBck: "/assets/mockups/iphone/todo-iphone2.png",
         title: "Todo organizer",
@@ -164,7 +193,7 @@ export default {
           "Todo organizer built on Next.js. Uses Firebase to provide Auth and as a database for persistent todos. It allows user to set complited/pending state and to remove items. Chackra provides a clean and modern UI.",
       },
         {
-        id: 3,
+        id: 6,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",
         title: "ChatGPT-OpenAI",
@@ -177,7 +206,7 @@ export default {
           "Providing a super simple Tailwind UI to be able to chat with ChatGPT. Build on Next.js.",
       },
       {
-        id: 4,
+        id: 7,
         imageInside: "/assets/mockups/desktop/pablo-desktop.png",
         imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
         title: "Filmaker website",
@@ -191,7 +220,7 @@ export default {
       },
       
       {
-        id: 5,
+        id: 8,
         imageInside: "/assets/mockups/desktop/tenzies-desktop.png",
         imageBck: "/assets/mockups/iphone/tenzies-iphone.png",
         title: "Tenzies game",
@@ -204,7 +233,7 @@ export default {
           "Classic tenzies game. It provides language selection toggling from English to Spanish. I think it´s fun to play and I love Confetti´s animation :)",
       },
       {
-        id: 6,
+        id: 2,
         imageInside: "/assets/mockups/desktop/max-desktop.png",
         imageBck: "/assets/mockups/iphone/max-iphone.png",
         title: "Artist Website",
@@ -217,7 +246,7 @@ export default {
           "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
       },
       {
-        id: 7,
+        id: 1,
         imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
         imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
         title: "Blog & E-commerce",
