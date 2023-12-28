@@ -142,8 +142,8 @@ export default {
     projects: [
       {
         id: 0,
-        imageInside: "/assets/mockups/desktop/desktop-monthly.png",
-        imageBck: "/assets/mockups/iphone/iphone-monthly.png",
+        imageInside: "/assets/mockups/desktop/desktop-monthly.jpg",
+        imageBck: "/assets/mockups/iphone/iphone-monthly.jpg",
         title: "Monthly Budget",
         tech: "PHP-MYSQL",
         techDetail: ["Php", "MySQL", "CSS", "HTML", "JS"],
@@ -158,8 +158,8 @@ export default {
         imageInside: "/assets/mockups/desktop/cdlc-desktop.png",
         imageBck: "/assets/mockups/iphone/cdlc-iphone.png",
         title: "Blog & E-commerce",
-        tech: "CMS",
-        techDetail: ["FIGMA", "CMS (Tiendanube)", "CMS (Wordpress)"],
+        tech: "WORDPRESS",
+        techDetail: ["FIGMA", "Tiendanube", "Wordpress"],
         anchor: "urbanism",
         externalUrl: "https://cafedelasciudades.com.ar/",
         gitHubUrl: "https://cafedelasciudades.mitienda.com",
@@ -177,7 +177,7 @@ export default {
         externalUrl: "https://maxaguirre.com.ar/",
         gitHubUrl: "https://github.com/AndresDrimer/MaxAguirre",
         description:
-          "Personal website for artist Max Aguirre. Written in vanilla style. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
+          "Personal website for artist Max Aguirre. Written in vanilla JS-CSS. It has beautiful artwork by the artist. It´s integrated with another site I built for the same client, a CMS e-commerce (TiendaNube). My goal was to have a neat continuity between both sites and to capture the artist´s own style.",
       },
       {
         id: 3,
@@ -192,34 +192,10 @@ export default {
         description:
           "This is an app created to organize an stamp collections. It asks for user authentication, and then it shows a dashboard with missing and found stamps. It also displays stas, and teams images, with a single dedicated page for each one",
       },
-      {
-        id: 4,
-        imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
-        imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
-        title: "Todo-Context API",
-        tech: "CRUD-NEXT-CONTEXT API-LOCALSTORAGE",
-        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "Reducer"],
-        anchor: "todo-context",
-        externalUrl: "https://todo-context-beta.vercel.app/",
-        gitHubUrl: "https://github.com/AndresDrimer/todo-context/tree/main",
-        description:
-          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
-      },
-      {
-        id: 5,
-        imageInside: "/assets/mockups/desktop/todo-desktop2.png",
-        imageBck: "/assets/mockups/iphone/todo-iphone2.png",
-        title: "Todo organizer",
-        tech: "CRUD-NEXT-FIREBASE",
-        techDetail: ["Next.js", "Firebase", "Chakra UI"],
-        anchor: "todo",
-        externalUrl: "https://todo-nextjs-firebase-vamos-cmitwelhc-andresdrimer.vercel.app/",
-        gitHubUrl: "https://github.com/AndresDrimer/todo-netjs-firebase-vamos",
-        description:
-          "Todo organizer built on Next.js. Uses Firebase to provide Auth and as a database for persistent todos. It allows user to set complited/pending state and to remove items. Chackra provides a clean and modern UI.",
-      },
+      
+      
         {
-        id: 6,
+        id: 4,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",
         title: "ChatGPT-OpenAI",
@@ -232,7 +208,7 @@ export default {
           "Providing a super simple Tailwind UI to be able to chat with ChatGPT. Build on Next.js.",
       },
       {
-        id: 7,
+        id: 5,
         imageInside: "/assets/mockups/desktop/pablo-desktop.png",
         imageBck: "/assets/mockups/iphone/pablo-iphone2.png",
         title: "Filmaker website",
@@ -244,19 +220,18 @@ export default {
         description:
           "This was a really fun project to build. I decided to use a video background as the main object because it´s a website for a video maker. It includes two different layouts, one for the main section and the other one to show artist´s works and projects, I chosed react-router to manage them and created dynamic routes for portfolio items. I focused on the re-usability of components, making it really easy to update. I used EmailJS to manage sendings from Contact section",
       },
-      
       {
-        id: 8,
-        imageInside: "/assets/mockups/desktop/tenzies-desktop.png",
-        imageBck: "/assets/mockups/iphone/tenzies-iphone.png",
-        title: "Tenzies game",
-        tech: "REACT",
-        techDetail: ["React", "Javascript", "CSS", "HTML"],
-        anchor: "tenziesgame",
-        externalUrl: "https://tenziesgameforcataandpabli.netlify.app/",
-        gitHubUrl: "https://github.com/AndresDrimer/tenzies",
+        id: 6,
+        imageInside: "/assets/mockups/desktop/todo-context-desktop.png",
+        imageBck: "/assets/mockups/iphone/todo-context-iphone.png",
+        title: "Todo-Context API",
+        tech: "CRUD-NEXT-CONTEXT API-LOCALSTORAGE",
+        techDetail: ["Next.js", "Local Storage", "Tailwind.css", "Context API", "Reducer"],
+        anchor: "todo-context",
+        externalUrl: "https://todo-context-beta.vercel.app/",
+        gitHubUrl: "https://github.com/AndresDrimer/todo-context/tree/main",
         description:
-          "Classic tenzies game. It provides language selection toggling from English to Spanish. I think it´s fun to play and I love Confetti´s animation :)",
+          "Todo organizer built on Next.js. Uses Context API and reducer to manage CRUD and localStorage for persistent todos. Tailwind.css provides style. Deployed on Vercel",
       },
       
     ],
