@@ -144,7 +144,7 @@ export default {
       id: 0,
       imageInside: "/assets/mockups/desktop/youcab-desktop.png",
       imageBck: "/assets/mockups/iphone/youcab-iphone.png",
-      title: "Idea Storage",
+      title: "YouCabulary",
       tech: "PHP-API",
       techDetail: ["Php", "MySQL", "CSS", "API", "HTML", "JS"],
       anchor: "youcab",
