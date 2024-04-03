@@ -2,7 +2,7 @@ export default {
     name: "Andrés Drimer",
     workTitle: "Web Developer",
     moto: "I love building and designing responsive websites to connect people to people.",
-    resume:"https://drive.google.com/file/d/1dUO03fxCt7iPKtHVa9kJI7dpocdrnVX_/view?usp=sharing",
+    resume:"https://drive.google.com/file/d/1IHAcTIXXHbynE323uSDcmTg-7xE3Gn79/view?usp=sharing",
     logo: "/assets/logoAD2023-4.png",
     sections: ["home", "about", "skills", "projects", "contact"],
     aboutPhoto: "/assets/portrait2.jpeg",
