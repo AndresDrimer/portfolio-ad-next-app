@@ -72,7 +72,7 @@ export default {
         tech: "jQuery",
         version: "",
         icon: "/assets/skills/jquery.png",
-      }
+      },
       {
         id: 8,
         tech: "MySQL",
