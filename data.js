@@ -71,7 +71,7 @@ export default {
         id: 7,
         tech: "jQuery",
         version: "",
-        icon: "/assets/skills/jquery.png",
+        icon: "/assets/skills/jquery.gif",
       },
       {
         id: 8,
@@ -109,7 +109,7 @@ export default {
         id: 14,
         tech: "Saas",
         version: "5",
-        icon: "/assets/skills/saas.png",
+        icon: "/assets/skills/sass.png",
       },
       {
         id: 15,
