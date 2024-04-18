@@ -69,70 +69,76 @@ export default {
       },
       {
         id: 7,
+        tech: "jQuery",
+        version: "",
+        icon: "/assets/skills/jquery.png",
+      }
+      {
+        id: 8,
         tech: "MySQL",
         icon: "/assets/skills/mysql.png",
       },
       {
-        id: 8,
+        id: 9,
         tech: "firebase",
         icon: "/assets/skills/firebase.png",
       },
       {
-        id: 9, 
+        id: 10, 
         tech: "mongo db", 
         icon:"/assets/skills/mongodb.png"
       },
       {
-        id: 10,
+        id: 11,
         tech: "prisma adapter",
         icon: "/assets/skills/prisma.png"
       },
       {
-        id: 11,
+        id: 12,
         tech: "html",
         version: "5",
         icon: "/assets/skills/html.png",
       },
       {
-        id: 12,
+        id: 13,
         tech: "css",
         version: "3",
         icon: "/assets/skills/css.png",
       }, 
       {
-        id: 13,
+        id: 14,
+        tech: "Saas",
+        version: "5",
+        icon: "/assets/skills/saas.png",
+      },
+      {
+        id: 15,
         tech: "bootstrap",
         version: "5",
         icon: "/assets/skills/bootstrap.png",
       },
       {
-        id: 14,
+        id: 16,
         tech: "git",
         icon: "/assets/skills/git.png",
       },
       {
-        id: 15,
+        id: 17,
         tech: "github",
         icon: "/assets/skills/github.png",
       },
-      
-      {
-        id: 16,
-        tech: "tiendanube (CMS)",
-        icon: "/assets/skills/tiendanube.png",
-      },
-      {
-        id: 17,
+           {
+        id: 18,
         tech: "figma",
         icon: "/assets/skills/figma.png",
       },
       {
-        id: 18,
+        id: 19,
         tech: "photoshop",
         icon: "/assets/skills/photoshop.png",
       },
       {
-        id: 19,
+        id: 20,
         tech: "premiere",
         icon: "/assets/skills/premiere.png",
       }
