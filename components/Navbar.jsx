@@ -99,14 +99,12 @@ const Navbar = (props) => {
               <a href="/">
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Home</li>
               </a>
-              <a href="/#about">
-                <li onClick={()=>setNav(false)} className="py-4 text-sm">About</li>
+              
+              <a href="/#stack">
+                <li onClick={()=> setNav(false)} className="py-4 text-sm">Stack</li>
               </a>
-              <a href="/#skills">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Skills</li>
-              </a>
-              <a href="/#projects">
-                <li onClick={()=>setNav(false)} className="py-4 text-sm">Projects</li>
+              <a href="/#works">
+                <li onClick={()=>setNav(false)} className="py-4 text-sm">Works</li>
               </a>
               <a href="/#contact">
                 <li onClick={()=>setNav(false)} className="py-4 text-sm">Contact</li>
