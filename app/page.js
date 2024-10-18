@@ -6,7 +6,9 @@ import About from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import Contact from '../components/Contact'
-
+import NewMain from '../components/NewMain'
+import NewSkills from '../components/NewSkills'
+import NewProjects from '../components/NewProjects'
 
 import data from '../data'
 
@@ -21,11 +23,10 @@ export default function Home() {
         <link rel="icon" href="/logoAD2023-4.ico" />
       </Head>
   
-     
-      <Main data={data} />
-      <About data={data} />
-      <Skills data={data} />
-      <Projects data={data} />
+      <NewMain data={data} />
+      <NewSkills data={data} />
+      <NewProjects data={data} />
+      
       <Contact data={data} />
     </>
   )

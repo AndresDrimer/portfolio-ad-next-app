@@ -15,11 +15,10 @@ function Main(props) {
           <p className="py-4 text-gray-600 max-w-[75%] m-auto">
             {props.data.moto}
           </p>
-          
-<ContactIcons />
-
+          <ContactIcons />
         </div>
       </div>
+      
     </div>
   );
 }

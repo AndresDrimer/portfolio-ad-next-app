@@ -10,7 +10,7 @@ import data from "../data";
 function ContactIcons() {
   
   return (
-    <div className="flex items-center justify-between max-w-[330px] m-auto py-6">
+    <div className="flex items-center justify-between max-w-[330px] m-auto py-6 px-4">
       <a href={data.contact.linkedin} target="_blank">
         <div className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-110  ease-in duration-300">
           <AiOutlineLinkedin />

@@ -78,7 +78,7 @@ export default function Contact(props) {
                 <h2 className="py-2">{props.data.name}</h2>
                 <p>{props.data.workTitle}</p>
                 <p className="py-4">{props.data.status}</p>
-              </div>{" "}
+              </div>
               <p className="uppercase pt-8">Conect with me</p>
               <div>
                 <ContactIcons />
