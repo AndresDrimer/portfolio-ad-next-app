@@ -99,9 +99,9 @@ const Navbar = (props) => {
                 <li onClick={()=>setNav(false)} className="py-4 text-sm"><a href="/" role="link" aria-label="go to home">Home</a></li>
               
               
-              <a href="/#stack" role="link" aria-label="go to stack">
-                <li onClick={()=> setNav(false)} className="py-4 text-sm">Stack</li>
-              </a>
+             
+                <li onClick={()=> setNav(false)} className="py-4 text-sm"> <a href="/#stack" role="link" aria-label="go to stack">Stack</a></li>
+             
              
                 <li onClick={()=>setNav(false)} className="py-4 text-sm"> <a href="/#works" role="link" aria-label="go to works">Works</a></li>
               
