@@ -16,7 +16,7 @@ function NewSkills(props) {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3 className="uppercase text-gray-600">{skill.tech}</h3>
+                <h6 className="uppercase text-gray-600">{skill.tech}</h6>
                 
               </div>
             </div>
@@ -29,9 +29,9 @@ function NewSkills(props) {
     return (
     <div id="stack" className="w-full  p-2">
       <div className="max-w-[1240px] mx-auto flex flex-col justify-center h-full">
-        <p className="text-xl tracking-widest uppercase text-[#22c4c7] pl-2 pb-2">
+        <h3 className="text-xl tracking-widest uppercase text-[#22c4c7] pl-2 pb-2 font-normal">
           Stack
-        </p>
+        </h3>
      
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
         

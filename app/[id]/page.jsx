@@ -78,12 +78,12 @@ export default function artistwebsite({ params }) {
 
           <p className="pr-4">{data.projects[id].description}</p>
           <button className="px-8 py-2 mt-4 mr-8">
-            <a href={data.projects[id].externalUrl} target="_blank">
+            <a href={data.projects[id].externalUrl} target="_blank" role="link" aria-label="go to project">
               Visit
             </a>
           </button>
           <button className="px-8 py-2 mt-4 ">
-            <a href={data.projects[id].gitHubUrl} target="_blank">
+            <a href={data.projects[id].gitHubUrl} target="_blank" role="link" aria-label="go to code">
               Code
             </a>
           </button>

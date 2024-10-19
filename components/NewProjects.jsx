@@ -8,9 +8,9 @@ export default function Projects(props) {
     return (
     <div  id="works" className="w-full">
       <div className="max-w-[1240px] mx-auto px-2 py-16">
-        <p className="text-xl tracking-widest uppercase text-[#22c4c7] pl-2 pb-2">
+        <h3 className="text-xl tracking-widest uppercase text-[#22c4c7] pl-2 pb-2 font-normal">
           Works
-        </p>
+        </h3>
        
         <div className="grid md:grid-cols-3 gap-8">
      {createProjectItem}     
