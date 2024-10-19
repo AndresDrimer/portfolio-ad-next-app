@@ -72,7 +72,11 @@ export default function Contact(props) {
                   className="rounded-3xl hover:scale-105 ease-in duration-300 p-4 mx-auto"
                   src="/assets/contact3.webp"
                   alt="contact pic"
+                  width="600"
+                  height="auto"
+                  loading="lazy"
                 />
+              
               </div>
               <div>
                 <h2 className="py-2">{props.data.name}</h2>

@@ -45,26 +45,25 @@ const Navbar = (props) => {
         /></a>
         <div>
           <ul className="hidden md:flex">
-            <a href="/" role="link" aria-label="go to home">
-              <li className="ml-10 text-sm uppercase hover:border-b">Home</li>
-            </a>
            
-            <a href="/#stack" role="link" aria-label="go to stack">
-              <li className="ml-10 text-sm uppercase hover:border-b">Stack</li>
-            </a>
-            <a href="/#works" role="link" aria-label="go to works">
-            <li className="ml-10 text-sm uppercase hover:border-b">Works</li>
-          </a>
-            <a href="/#contact" role="link" aria-label="go to contact">
+              <li className="ml-10 text-sm uppercase hover:border-b"> <a href="/" role="link" aria-label="go to home">Home</a></li>
+            
+           
+           
+              <li className="ml-10 text-sm uppercase hover:border-b"> <a href="/#stack" role="link" aria-label="go to stack">Stack</a></li>
+        
+          
+            <li className="ml-10 text-sm uppercase hover:border-b">  <a href="/#works" role="link" aria-label="go to works">Works</a></li>
+          
+           
               <li className="ml-10 text-sm uppercase hover:border-b">
-                Contact
+              <a href="/#contact" role="link" aria-label="go to contact">Contact</a>
               </li>
-            </a>
-            <a href={props.data.resume} target="_blank" role="link" aria-label="go to resume">
-              <li className="ml-10 text-sm uppercase text-[#22c4c7] hover:border-b">
-                Resume
-              </li>
-            </a>
+           
+            
+              <li className="ml-10 text-sm uppercase text-[#22c4c7] hover:border-b"><a href={props.data.resume} target="_blank" role="link" aria-label="go to resume">
+                Resume</a></li>
+            
 
           </ul>
           <div onClick={handleNav} className="md:hidden">

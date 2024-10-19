@@ -16,7 +16,7 @@ function NewSkills(props) {
                 />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h6 className="uppercase text-gray-600">{skill.tech}</h6>
+                <p className="uppercase text-gray-600 text-bold">{skill.tech}</p>
                 
               </div>
             </div>

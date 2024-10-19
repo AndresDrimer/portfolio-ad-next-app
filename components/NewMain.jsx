@@ -21,10 +21,12 @@ const NewMain = (props) => {
         <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
           <Image
             src={props.data.aboutPhoto}
-            alt="photo"
+            alt="main photo"
             width="300"
             height="60"
             className="rounded-xl"
+            priority
+            quality={75}
           />
         </div>
       </div>
