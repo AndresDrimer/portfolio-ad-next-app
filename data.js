@@ -218,9 +218,8 @@ export default {
       gitHubUrl: "https://github.com/AndresDrimer/youcabulary",
       description:
       "YOCABULARY is an innovative educational application designed to enhance English language learning. The application allows users to add English words to their personal collection. Each word is accompanied by its definition and an audio clip that pronounces the word correctly. This application is specifically designed with an educational purpose in mind, making it an ideal tool for English students. It leverages the power of technology to transform language learning into a more interactive and engaging experience. Additionally, the app utilizes artificial intelligence to generate paragraphs with the words selected by the user, providing a very powerful tool for practice. Furthermore, the voices are customizable, including the different accents of the English language, offering a versatile and personalized learning experience.",
-    },
-      
-      {
+    }, 
+    {
       id: 5,
       imageInside: "/assets/mockups/desktop/fuerza-desktop.png",
       imageBck: "/assets/mockups/iphone/fuerza-iphone.png",
@@ -245,7 +244,8 @@ export default {
       gitHubUrl: "https://github.com/AndresDrimer/monthly-budget",
       description:
         "Monthly Budget is a page designed to help control domestic cash flow or small projects. It allows the creation of personal or shared spaces privately. The intention is that it is easy to use, provides a useful service, and is easily scalable. It is designed in PHP and includes HTML, CSS, and Javascript. The database is MySQL.",
-    }, {
+    }, 
+    {
       id: 7,
       imageInside: "/assets/mockups/desktop/ideas-desktop.png",
       imageBck: "/assets/mockups/iphone/ideas-iphone2.png",
@@ -258,8 +258,7 @@ export default {
       description:
         "This webpage was born out of a need identified by one of my children. They had brilliant ideas that they often forgot about. In response to this, I decided to create a simple solution as a weekend project. The result is a webpage that allows users to store and retrieve their ideas easily.The webpage is built using PHP - Object Oriented Programming (OOP). It follows the Model-View-Controller (MVC) design pattern.Users can create accounts and log in securely. Once logged in, users can write down their ideas and categorize them. Users can view and edit their ideas whenever they want. The webpage uses a Router to manage the flow of data and establish paths for transmitting information between networks.",
     },
-     
-      {
+    {
         id: 8,
         imageInside: "/assets/mockups/desktop/libertadores-desktop.png",
         imageBck: "/assets/mockups/iphone/libertadores-iphone.png",
@@ -272,9 +271,7 @@ export default {
         description:
           "This is an app created to organize an stamp collections. It asks for user authentication, and then it shows a dashboard with missing and found stamps. It also displays stas, and teams images, with a single dedicated page for each one",
       },
-      
-      
-        {
+      {
         id: 9,
         imageInside: "/assets/mockups/desktop/talk-desktop.png",
         imageBck: "/assets/mockups/iphone/talk-iphone.png",

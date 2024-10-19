@@ -9,7 +9,7 @@ function NewSkills(props) {
             <div className="grid grid-rows-2 gap-0 justify-center items-center">
               <div className="m-auto">
                 <Image
-                  alt="/"
+                  alt="stack img"
                   src={skill.icon}
                   width="64"
                   height="64"

@@ -3,7 +3,7 @@ import data from "../data";
 import Navbar from '../components/Navbar'
 export const metadata = {
   title: 'Andres Drimer',
-  description: 'Andres Drimer`s Front-end Developer Portfolio',
+  description: 'Andres Drimer`s Web Developer Portfolio',
 }
 
 export default function RootLayout({ children }) {
