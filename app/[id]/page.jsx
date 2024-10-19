@@ -20,9 +20,9 @@ export default function artistwebsite({ params }) {
   return (
     <div className="w-full">
       <div className="w-screen relative h-[20vh] lg:h-[30vh] ">
-        <div className="relative top-0 left-0 w-full h-[180px] lg:h-[30vh] bg-black/80 z-10" />
+        <div className="relative top-0 left-0 w-full h-[180px] lg:h-[220px] bg-black/80 z-10" />
 
-        <div className="absolute top-[70%] lg:top-[65%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2 flex items-center ">
+        <div className="absolute top-[120px] lg:top-[140px] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2 flex items-center ">
           <div className="mr-auto">
             <h2 className="py-2 text-2xl sm:text-3xl lg:text-5xl">{data.projects[id].title}</h2>
             <h3 className="lg:text-3xl">{data.projects[id].tech}</h3>
